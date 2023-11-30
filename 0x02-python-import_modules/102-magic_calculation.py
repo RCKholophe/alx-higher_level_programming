@@ -1,12 +1,13 @@
+#!/usr/bin/python3
+
 def magic_calculation(a, b):
-    add, sub = mai=gic_calculation_102.add, magic_calculation_102.sub
+    """Match bytecode provided by ALX."""
+    from magic_calculation_102 import add, sub
 
-    if a<b:
-        c=add(a,b)
-
+    if a < b:
+        c = add(a,b)
         for i in range(4, 6):
-            c=add(c, i)
-
+            c = add(c, i)
             return c
-
-        return sub(a, b)
+        else:
+            return(sub(a, b))
